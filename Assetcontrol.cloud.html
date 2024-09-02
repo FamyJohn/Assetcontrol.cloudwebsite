@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assetcontrol.cloud </title>
+    <style>
+     * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #173970;
+    background-color: #FFFFFF;
+    padding-bottom: 0px;
+    
+}
+
+
+
+header {
+    background-color:#173970; 
+    padding: 20px;
+    color: #FFFFFF;
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 95px;
+    z-index: 100;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.navbuttons1{
+    color: #FFFFFF; border:none; background-color: #173970;margin-right: 20px;
+
+}
+
+.navbuttons1:hover, .navbuttons3:hover {
+
+color:#E21B24
+}
+
+.featurebutton:hover{
+color: #E21B24;
+
+}
+
+.featurebutton{
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+.contactbutton{
+color: #FFFFFF;
+text-decoration: none;
+
+
+}
+
+
+.contactbutton:hover{
+color: #E21B24;
+
+
+}
+
+.dropdown {
+ 
+  float: inline-end;
+  margin-top: 30px;
+  margin-right: 50px;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 13px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #173970;
+ 
+ 
+  
+}
+
+.dropdown:hover .dropbtn:hover {
+  color: #E21B24;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #173970;
+  color: #FFFFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #173970;
+  text-align: left;
+  display: block;
+  font-size: 13px;
+  
+}
+
+.dropdown-content a:hover {
+  color: #E21B24;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.navbuttons3{
+    color: #FFFFFF;
+    border:none;
+    background-color: #173970;
+   
+}
+
+.container1 {
+    text-align: left;
+    line-height: 70px;
+    margin-top: 90px;
+    padding: 100px 0;
+    padding-left: 80px;
+    color: #FFFFFF;
+    height: 900px;
+    background-image: url(Assetcontrol.cloud.images/bluekeyimage.jpg) 
+     
+}
+
+.container1 h1{
+font-size: 18px;
+padding-bottom: 0px;
+
+
+}
+
+.container1h2 {
+ font-size: 40px;
+ width: 800px;
+ padding-bottom: 20px;
+ 
+}
+
+
+
+
+
+.container1 p{
+    font-size: 18px;
+    width: 700px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    
+}
+
+.cta-button1, .cta-button2 {
+    background-color:#E21B24;
+    color: #FFFFFF;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0px;
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px;
+}
+
+.cta-button1, .cta-button2{
+ margin-right: 20px;
+ opacity: 0.7;
+
+}
+
+.cta-button1:hover, .cta-button2:hover {
+    background-color:rgb(204, 135, 8);
+    color: #FFFFFF;
+    
+}
+
+.container2 {
+    padding: 40px 0;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+
+}
+
+.container2 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quotecontainer{
+
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 200px;
+    background-image:url(Assetcontrol.cloud.images/quotebackgroundimage.png);
+    height: 600px
+    
+}
+
+.quote{
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bold;
+    color:#FFFFFF
+
+}
+
+
+
+
+.container3 {
+    padding: 50px 0;
+    margin-top: 0px;
+    background-color: #173970;
+}
+
+.container3 h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #173970;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #E21B24;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #173970;
+}
+
+.socialmediaicons{
+    display: flex;
+     margin-left: 685px;
+     margin-top: 40px;
+     
+    
+
+
+}
+
+.socialmediaicons:hover{
+color:#FFFFFF;
+
+}
+
+
+.footercontainer{
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+    color:#173970;
+    
+    font-size: 12px;
+}
+    </style>
+
+
+
+
+  
+</head>
+
+<body>
+    <header>
+        <div class="header-bar">
+            
+            <div style="display: flexbox;">
+                <img src="Assetcontrol.cloud.images/logoimage.png" alt="header-logo" 
+                style="width: 290px; height: auto; padding-left: 80px;margin-right: 900px;">
+                
+                    
+                <button>
+                    <button class="navbuttons1"><a href="#FEATURES" class="featurebutton">FEATURES</a></button> 
+                    
+                              <div  class="dropdown">
+                                    <button class="dropbtn">MEDIA &#x25BE</button>
+                                            
+                                    <div class="dropdown-content">
+                                        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:8eb5ae28-dd6c-4598-b406-02eb19ea780e" target = "_blank">BROCHURE</a>
+                                        <a href="#">BLOG</a>
+                                        
+                                    </div>
+
+
+                                </div>
+                    <button class="navbuttons3"><a href="#CONTACT" class="contactbutton">CONTACT</a></button>
+                </button>
+            </div>
+
+
+             
+        
+        </div>
+    </header>
+
+    <section>
+        
+           <div class="container1">
+                           
+                         <div class="container1h1"> <h1>MOBILE APP</h1></div>
+                  <div class=" container1h2"> <h2>Tracking assets made simple and safe at your fingertips. </h2> </div> 
+            
+                      <p class="">Whether it’s as small as keys or as large as heavy equipment, 
+                        Keytracker's Assetcontrol.cloud mobile app enables you to effectively manage all of them.</p>
+            
+                   <div class="cta-button"> 
+                   <a href="#features" class="cta-button1"> Download from App store</a>
+                   <a href="#features" class="cta-button2"> Download from Play store</a>
+                   </div>
+           </div>
+    
+    </section>
+
+    <section>
+        <div class="container2">
+            <div id="FEATURES" style=" text-align: center;display: flexbox; color: #173970; font-size: 30px; 
+            font-weight: bold; margin-bottom: 100px;">What we offer</div>
+
+   
+
+               <div style="display: flexbox;">
+                 
+                     <img style="width: 300px;margin-right: 60px;" src="Assetcontrol.cloud.images/feature1.png" alt="feature1">
+                 
+                     <img style="width: 300px;margin-right: 60px;" src="Assetcontrol.cloud.images/feature2.png" alt="feature2">
+                    
+                   
+                     <img style="width: 300px;margin-right: 60px;" src="Assetcontrol.cloud.images/feature3.png" alt="feature3">
+              
+                     <img style="width: 300px;margin-right: 0px;" src="Assetcontrol.cloud.images/feature4.png" alt="feature4">
+            </div>
+           </div>  
+        </div>
+    </section>
+
+     <section>
+           <div class="quotecontainer">
+            <p class="quote"> "Manage assets through Assetcontrol.cloud app = Maximise businesses"</p>
+           </div>
+    </section>
+
+    <section style="text-align: center; margin-bottom: 50px;">
+
+        <div style="text-align: center;display: flexbox; color: #173970; font-size: 30px; 
+            font-weight: bold; margin-bottom: 30px;"> Key Highlights</div>
+
+        <div style="margin-bottom: 20px;">
+            <div style=" display: inline-block; margin-right: 50px; width: 100px; vertical-align: top;"> 
+                <img style="width:80px;"src="Assetcontrol.cloud.images/GPSicon.png" alt="GPSicon">
+                <p style="font-weight: bold;"> GPS tracking technology</p>
+             </div>
+
+                <div style=" display: inline-block; margin-right: 50px; width: 100px;">
+                    <img style="width:80px;"src="Assetcontrol.cloud.images/Barcodeicon.png" alt="Barcodeicon">
+                    <p style="font-weight: bold;"> Barcodes for users and assets</p>
+                </div>
+
+            <div style=" display: inline-block; margin-right: 50px; width: 100px;">
+                <img style="width:80px;"src="Assetcontrol.cloud.images/Passwordicon.png" alt="Passwordicon">
+                <p style="font-weight: bold;"> Password reset by users </p>
+                  
+          </div>
+
+            <div style=" display: inline-block; margin-right: 50px; width: 100px;">
+                <img style="width:80px;"src="Assetcontrol.cloud.images/Realtimeicon.png" alt="Realtimeicon">
+                <p style="font-weight: bold;"> Advanced real-time tracking</p>
+
+            </div>
+
+            <div style=" display: inline-block; margin-right: 50px; width: 100px;vertical-align: top;">
+                <img style="width:80px;"src="Assetcontrol.cloud.images/Signatureicon.png" alt="Signatureicon">
+                 <p style="font-weight: bold;"> Signature pad built in</p>
+
+            </div>
+            
+            <div style=" display: inline-block; margin-right: 50px; width: 100px; vertical-align: top;">
+            <img style="width:80px;" src="Assetcontrol.cloud.images/Overdueicon.png" alt="Overdueicon">
+            <p style="font-weight: bold;"> Overdue email alerts</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container3">
+            <h2 class="contactbutton" id="CONTACT">Contact Us</h2>
+            <div >
+                <div style="padding-top: 20px;text-align: center;">
+                <img style="width: 40px;" src="Assetcontrol.cloud.images/Emailicon.png" alt="Emailicon">
+                <a href="email" style="color: #FFFFFF; 
+                font-size: 15px; text-decoration: none; padding-right: 150px;"> Sales@keytracker.com</a>  
+                
+                 <img style="width: 40px;" src="Assetcontrol.cloud.images/phoneicon.png" alt="phoneicon">
+
+                 <a href="tel:+44(0)1215599000" style="color: #FFFFFF; text-decoration: 
+                 none;font-size: 15px;margin-right: 20px;">Call Us: +44 (0)121 559 9000</a>
+                </div>
+            </div>
+            <form action="#" method="POST">
+                <div style="display: block; width: 800px; text-align: center;">
+                    <div style="max-width: 800px;display: block; margin-bottom: 0px;">
+                      <input type="text" name="name" placeholder="Name" required style="margin: 20px;margin-bottom: 0px;">
+                      <input type="text" name="companyname" placeholder="Company Name" required style="margin-bottom: 0px;">
+                   </div>
+                   <div style="margin-top: 0px;">
+                      <input type="email" name="email" placeholder="Email" required style="margin: 20px;">
+                      <input type="tel" name="phone" placeholder="Phone number" required>
+                   </div>
+                     <div>
+                      <textarea name="message" placeholder="Message" required style=" display: block; margin-bottom: 
+                      20px;margin-left: 75px; width: 665px; font-family: Arial, Helvetica, sans-serif;"></textarea>
+                      <button type="submit" class="cta-button"> Send Message</button>
+                    </div>
+                 </div>
+            </form>
+
+            <div class="socialmediaicons">
+                <a href="https://www.facebook.com/keytrackersolutions/" target = "_blank">
+                <img style="padding-top: 2px;" src="Assetcontrol.cloud.images/facebookicon.png" alt="facebookicon" width="34px">
+                </a>
+                <a href="https://x.com/KeytrackerUK" target = "_blank">
+                    <img src="Assetcontrol.cloud.images/Xicon2.png" alt="Xicon2" width="37px">
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/company/keytracker-ltd/" target = "_blank">
+                        <img src="Assetcontrol.cloud.images/linkedinicon.png" alt="linkedinicon" width="37px">
+                        </a>
+                        <a href="https://www.keytracker.com/" target = "_blank">
+                            <img src="Assetcontrol.cloud.images/websiteicon.png" alt="websiteicon" width="36px">
+                            </a>
+
+              </div>            
+           
+        </div>
+    </section>
+
+    <div style="background-color: #173970; padding-left: 1300px; padding-top: 0px; padding-bottom: 30px; ">
+        <img style="width: 300px; padding-right: 140px;padding-bottom: 20px;"  src="Assetcontrol.cloud.images/Keytrackerlogo.png" alt="Keytrackerlogo">
+        <p style="font-size: 15px;color: #FFFFFF; width: 150px;text-align: center;">KeyTracker, Station Road, Rowley Regis, B65 0JY, UK</p>
+    </div>
+
+    <footer>
+        <div class="footercontainer">
+            <p>&copy; 2024 Assetcontrol.cloud. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
